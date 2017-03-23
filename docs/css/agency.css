@@ -157,7 +157,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #d9dae8;
+  color: #f1e9ea;
   font-family: "Dancing Script", "Helvetica Neue", Helvetica, Arial, cursive;
   font-style: italic;
   font-size: 2em;
@@ -166,7 +166,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #fefefe;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -192,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #673295;
+  color: #f1ebef;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -661,7 +661,7 @@ ul.social-buttons {
   margin-bottom: 0;
 }
 ul.social-buttons li a {
-  display: block;
+  display: none;
   background-color: #222222;
   height: 40px;
   width: 40px;
