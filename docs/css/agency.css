@@ -56,7 +56,7 @@ h2 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -66,8 +66,7 @@ h2 {
   background-color: #673295;
   border-color: #673295;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -75,8 +74,8 @@ h2 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #970709;
+  border-color: #782b2c;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -111,19 +110,23 @@ fieldset[disabled] .btn-primary.active {
   border-color: #673295;
   font-family: "Arsenal", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 00;
   border-radius: 3px;
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 14px;
+  padding: 10px 20px;
 }
+.intro-text .btn-xl {
+  margin-top: 250px;  
+}
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #970709;
+  border-color: #841719;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -203,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #970709;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -225,6 +228,15 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 @media (min-width: 768px) {
+  .btn-xl {
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 12px 25px;
+  }
+  .intro-text .btn-xl {
+    margin-top: 0px;  
+  }
+
   .navbar-custom.affix {
     background-color: #222222;
     padding: 10px 0;
@@ -321,7 +333,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #e0dfe7;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -644,11 +656,17 @@ footer {
   padding: 25px 0;
   text-align: center;
 }
-footer span.copyright {
-  line-height: 40px;
+footer div {
+  line-height: 20px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+}
+footer div.contact {
+  font-size: 16px;
+}
+footer div.copyright {
+  margin-top: 20px;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
